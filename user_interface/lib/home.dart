@@ -87,8 +87,8 @@ class AnimeDetailPage extends StatelessWidget {
             children: <Widget>[
               Image.asset(
                 anime.imageUrl,
-                width: 150,
-                height: 150,
+                width: 500,
+                height: 500,
               ),
               ListTile(
                 title: Text(anime.title),
